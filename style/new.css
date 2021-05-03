@@ -1,0 +1,155 @@
+.new{
+    height: 611px;
+    position: relative;
+    background-color: #242424;
+}
+
+
+.new__text__image{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate( -0, -50%);
+}
+
+.new__text__design{
+    background-color: rgb(255, 186, 0);
+    position: absolute;
+    left: 131px;
+    top: 213px;
+    width: 840px;
+    height: 190px;
+    z-index: 10;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .new__text__design{
+        left: 10%;
+        width: 90%;
+    }
+}
+
+
+.new__text1{
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 22.95px;
+    top: 270px;
+    font-weight: 200;
+    transform: rotate(270deg);
+    z-index: 15;
+    letter-spacing: 4.1px;
+    line-height: 64px;
+}
+
+
+@media screen and (max-width: 1125px) {
+    .new__text1{
+        left: -12%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .new__text1{
+        top: 20px;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        transform: unset;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .new__text1{
+        font-size: 30px;
+    }
+}
+
+
+.new__text{
+    max-width: 45%;
+    position: absolute;
+    left: 19.5%;
+    top: 134px;
+    z-index: 20;
+}
+
+@media screen and (max-width: 1125px) {
+    .new__text{
+        max-width: unset;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .new__text{
+        left: 10px;
+    }
+}
+
+
+
+
+
+.new__text h3{
+    font-size: 41.667px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    letter-spacing: 8.6px;
+}
+
+@media screen and (max-width: 1125px) {
+    .new__text h3{
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .new__text h3{
+        font-size: 28px;
+        letter-spacing: 5px;
+    }
+}
+
+
+
+.new__text p {
+    font-size: 33px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.4px
+}
+
+@media screen and (max-width: 1125px) {
+    .new__text p{
+        font-size: 28px;
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .new__text p{
+        font-size: 26px;
+        margin-top: 42px;
+    }
+}
+
+
+.new__text p:nth-child(2){
+    margin-top: 48px;
+}
+
+.new__text p:nth-child(3){
+    margin-top: 42px;
+}
+
+.new__text p:nth-child(4){
+    margin-top: 41px;
+}

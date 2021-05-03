@@ -1,0 +1,160 @@
+.contacts{
+    background-color: #242424;
+    position: relative;
+}
+
+.contacts__container{
+    position: relative;
+    padding-top: 105px;
+    padding-bottom: 66px;
+    margin: 0 auto 0 auto;
+    z-index: 20;
+}
+
+.contacts__design{
+    position: absolute;
+    height: 100%;
+    width: 249px;
+    left: 20.4%;
+    top: 0;
+    background-color: #ffba00;
+    z-index: 10;
+}
+
+
+@media screen and (max-width: 850px){
+    .contacts__design{
+        left: 0;
+        width: 40%;
+        opacity: 0.7;
+    }
+}
+
+
+
+
+.contacts__title{
+    font-size: 41.667px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 49px;
+    letter-spacing: 0.2px;
+    padding-left: 4px;
+}
+
+.contacts__mainBlock{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 64px;
+}
+
+@media screen and (max-width: 850px){
+    .contacts__mainBlock{
+        margin-left: 0;
+    }
+}
+
+
+.contacts__mainBlock__left{
+    margin-right: 139px;
+}
+
+@media screen and (max-width: 850px){
+    .contacts__mainBlock__left{
+        margin-right: 0;
+    }
+}
+
+
+.contacts__mainBlock__left p:first-child{
+    font-size: 25px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.68;
+    width: 339px;
+    margin-bottom: 17px;
+}
+
+
+@media screen and (max-width: 850px){
+    .contacts__mainBlock__left p:first-child{
+        width: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+
+.contacts__mainBlock__left p:nth-child(2){
+    font-size: 18.75px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    float: right;
+    margin-right: -11px;
+}
+
+@media screen and (max-width: 850px){
+    .contacts__mainBlock__left p:nth-child(2){
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+.contacts__mainBlock__right{
+    margin-top: 6px;
+}
+
+
+.contacts__mainBlock__right__find {
+    font-size: 25px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+
+.contacts__mainBlock__social{
+    margin-bottom: 55px;
+    margin-left: -2px;
+}
+
+@media screen and (max-width: 850px){
+    .contacts__mainBlock__social{
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+}
+
+
+.contacts__mainBlock__social a{
+    display: inline-block;
+    margin-right: 11px;
+}
+
+
+.contacts__mainBlock__right__ask{
+    font-size: 25px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin-left: -4px;
+}
+
+
+.contacts__mainBlock__right__web{
+    font-size: 33.333px;
+    font-family: "Lato";
+    color: rgb(255, 186, 0);
+}
+
+@media screen and (max-width: 850px){
+    .contacts__mainBlock__right__web{
+        font-size: 30px;
+    }
+}

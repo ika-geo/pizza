@@ -1,0 +1,146 @@
+footer{
+    background-color: #483500;
+    padding-top: 65px;
+    padding-bottom: 67px;
+}
+
+.footer__container{
+    display: flex;
+    padding-left: 13%;
+}
+
+@media screen and (max-width: 1300px) {
+    .footer__container{
+        padding-left: 0;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__container{
+        flex-direction: column;
+    }
+}
+
+
+.footer__left{
+    margin-right: 13.7%;
+}
+
+@media screen and (max-width: 1300px) {
+    .footer__left{
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__left{
+        margin-left: 0;
+    }
+}
+
+
+.footer__left__title {
+    font-size: 25px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer__left__title {
+        text-align: center;
+    }
+}
+
+
+.footer__left__text {
+    font-size: 18.75px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.556;
+    width: 377px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer__left__text {
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+
+.footer__right{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1300px) {
+    .footer__right{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .footer__right>div{
+        margin-right: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .footer__right>div{
+        margin-right: 0;
+    }
+}
+
+
+.footer__right__title{
+    font-size: 21px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 126px;
+    margin-bottom: 43px;
+}
+
+@media screen and (max-width: 1300px) {
+    .footer__right__title{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer__right__title{
+        font-size: 18px;
+    }
+}
+
+
+.footer__right__list a{
+    font-size: 21px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer__right__list a:hover{
+    color: #ffba00;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__right__list a{
+        font-size: 17px;
+    }
+}
