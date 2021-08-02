@@ -134,6 +134,7 @@ footer{
     font-weight: bold;
     margin-bottom: 5px;
     width: fit-content;
+    width: -moz-fit-content;
 }
 
 .footer__right__list a:hover{
